@@ -1,0 +1,31 @@
+---
+title: "Presentation"
+author: "Ryan"
+date: "January 29, 2017"
+output: ioslides_presentation
+---
+
+```{r, echo=FALSE, render=FALSE, message=FALSE}
+library(plotly)
+```
+
+##A quick look at the MT cars dataset
+
+##Forward
+Taking the plotly package for a test run with a familiar dataset!
+
+-mpg vs. wt
+-colored by transmission
+-Weeeeeeeeeeeeeeeeeeee!
+
+##Plot
+
+```{R, echo=FALSE, message=FALSE}
+d <- mtcars
+set.seed(10)
+plot_ly(d, x= ~wt, y = ~mpg, color = ~am, text = ~rownames(d))
+
+```
+
+##Goodbye!
+
