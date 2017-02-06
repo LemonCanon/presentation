@@ -9,14 +9,11 @@ output: ioslides_presentation
 library(plotly)
 ```
 
-##A quick look at the MT cars dataset
-
 ##Forward
 Taking the plotly package for a test run with a familiar dataset!
 
 -mpg vs. wt
 -colored by transmission
--Weeeeeeeeeeeeeeeeeeee!
 
 ##Plot
 
